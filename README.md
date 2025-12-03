@@ -1,2 +1,5 @@
 # Hybrid-KNN-MLP
 A hybrid KNN-MLP model for multivariate time-series data imputation
+
+Multivariate time series datasets can have erroneous or missing values, which is unsuitable for making predictions in real-life applications. Such data is required to be imputed, so that the training data is consistent and complete. Existing imputation techniques such as MICE, or even deep learning models like Convolutional Denoising Autoencoders (CDAEs) have made significant progress in the field of data imputation, but can be either inefficient in capturing the exact relationship between variables, or can be extremely resource intensive. This study proposes a novel method  that  combines KNN with Multi-Layer Perceptron in a such a way that it can  achieve high-quality data imputation.  We compare the results with other existing  models trained and tested on the same dataset. In this setup, the proposed  KNN-MLP model has performed significantly better in all tests compared to other models, including the most recent model CDAEs.
+
